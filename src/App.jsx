@@ -3,8 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import './App.scss'
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Home from "./components/Pages/Home/Home";
-import About from "./components/Pages/About/About";
+import Home from "./Pages/Home/Home";
+import About from "./Pages/About/About";
 function App() {
   const [count, setCount] = useState(0)
 

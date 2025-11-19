@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #4b8cf5;
+  --secondary-color: #eb1c24;
+  --body-color: #2b2b2b; 
+  --text-color: #ffffff;
+  --bs-dropdown-link-active-bg: var(--secondary-color) !important;     
+}
+.dropdown-menu{
+    --bs-dropdown-link-active-bg: var(--secondary-color) !important;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background: var(--body-color);
+    color: var(--text-color);
+}
