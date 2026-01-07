@@ -1,0 +1,12 @@
+.card-heading{
+    margin-bottom: 20px;
+}
+.cardrow{
+    border-radius: 20px;
+    .card{
+        border: 0;
+            img{
+            border-radius: 5px 5px 0 0;
+        }
+    }
+}

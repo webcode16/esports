@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo.webp";
 import "./Header.scss";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -10,7 +10,12 @@ const Header = () => {
 <Navbar expand="lg" className="bg-black navbar-dark">
   <Container className="bg-black">
     <Navbar.Brand as={Link} to="/">
-      Esports India
+        <img
+          src={logo}
+          alt="Logo"
+          height="70"
+          className="d-inline-block align-top"
+        />
     </Navbar.Brand>
 
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
