@@ -1,7 +1,10 @@
 .primary-button{
-    background: var(--secondary-color);
+    background: var(--theme-color);
     color: var(--text-color);
     border-radius: 4px;
+}
+.navbar-expand-lg .navbar-collapse{
+    gap: 20px;
 }
 .nav-link{
     color: var(--text-color);
@@ -40,4 +43,7 @@ cubic-bezier(0.4, 0, 0.2, 1);
 .navbar-expand-lg .navbar-nav .dropdown-menu a:last-child:hover{
     border-radius: 0 0 4px 4px;
     padding-bottom: 8px !important;
+}
+.navbar-brand img{
+    max-width: 176px;
 }

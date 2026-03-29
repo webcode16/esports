@@ -1,5 +1,22 @@
+.all-games-show {
+    padding: 40px 0;
+    .card-game-row{
+        .card-game-box{
+            img{
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                min-height: 140px;
+                object-fit: cover;
+                object-position: right;
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
 .card-heading{
-    margin-bottom: 20px;
+    font-weight: 700;
 }
 .cardrow{
     border-radius: 20px;
@@ -9,4 +26,13 @@
             border-radius: 5px 5px 0 0;
         }
     }
+}
+.form-select {
+  background-color: #f1f1f1; // custom gray
+  color: #000;
+
+  &:focus {
+    border-color: #333;
+    box-shadow: none;
+  }
 }

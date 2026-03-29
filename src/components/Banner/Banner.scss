@@ -1,0 +1,37 @@
+.main-banner{
+    position: relative;
+    .banner_img {
+        max-height: 401px;
+        object-fit: cover;
+        filter: brightness(0.7);
+    }
+    .banner-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        .heading {
+            font-size: 48px;
+            font-family: fantasy;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+            font-style: italic;
+        }
+        .sub-heading {
+            font-size: 28px;
+            font-weight: 700;
+        }
+        .content {
+            max-width: 488px;
+            font-size: 18px;
+            margin: 0 auto;
+        }
+        a{
+            width: 100%;
+            max-width: 160px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}

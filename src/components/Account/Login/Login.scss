@@ -1,0 +1,32 @@
+.main-login {
+    display: flex;
+    gap: 6rem;
+    .banner-login{
+        width: 50%;
+        line-height: 0;
+        img{
+            object-fit: cover;
+        }
+    }
+    form{
+        width: 50%;
+        color: #000;
+        background: #fff;
+        gap: 0.7rem;
+        .heading{
+            font-weight: 700;
+        }
+        .sub-heading{
+            max-width: 350px;
+            margin: 0 auto;
+        }
+        input{
+            background: #f5f5f5;
+            border: 0;
+        }
+        .login-btn{
+            text-transform: uppercase;
+            border: 0;
+        }
+    }
+}

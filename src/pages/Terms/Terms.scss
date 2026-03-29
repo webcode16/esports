@@ -1,0 +1,33 @@
+.term-and-conditions{
+    max-width: 800px;
+    margin: 60px auto 0 auto !important;
+    color: #000000;
+    font-size: 14px;
+    a{
+        text-decoration: none;
+        font-weight: 700;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+  
+}
+ .term-and-conditions-bg{
+    max-width: 800px;
+    margin: 0 auto 60px auto !important;
+    color: #000000;
+    font-size: 14px;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    .heading{
+        text-align: center;
+    }
+    h2{
+        font-size: 16px;
+    }
+    ul{
+        li{
+            font-size: 14px;
+        }
+    }
+ }
